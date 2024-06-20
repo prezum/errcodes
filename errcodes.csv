@@ -1,0 +1,27 @@
+ErrInternal; Внутренняя ошибка;Ой, что-то пошло не так; 500
+ErrInvalidHashcode; Неверный хешкод конвертации; ...; 400
+ErrInvalidRequest; Невалидный запрос; ...; 400
+ErrFileToBig; Размер файла больше 100мб; ...; 400
+ErrEmptyFile; Пустой файл; ...; 400
+ErrEmptyPresentation; Пустая презентация; ...; 400
+ErrParsePDF; Не получилось спарсить pdf; ...; 400
+ErrSlidesLimit; Количество слайдов больше 100; ...; 400
+ErrConvertation; Ошибка при конвертации; ...; 400
+ErrPresentationCreate; Ошибка создания презентации; ...; 500
+ErrPresentationNotFound; Презентация не найдена; ...; 400
+ErrPresentationVersionNotFound; Версия презентации не найдена; ...; 400
+ErrUserNotFound; Пользователь не найден; ...; 400
+ErrInteractiveNotFound; Интерактив не найден; ...; 400
+ErrSlidesNotFound; Слайды не найдены; ...; 400
+ErrSessionEmptyPresentation; Не удалось запустить сессию - пустая презентация; ...; 400
+ErrNoRefreshToken; Не удалось получить (или отсутсвует) refresh token; ...; 400
+ErrNoAuthorizationHeader; ...; ...; 400
+ErrInvalidAuthorizationHeader; ...; ...; 400
+ErrTokenEmpty; ...; ...; 400
+ErrInvalidToken; ...; ...; 400
+ErrTokenExpired; ...; ...; 400
+ErrTokensCountExceeded; ...; ...; 400
+ErrEmptyVKIDStatePassed; ...; ...; 400
+ErrInvalidPriveleges; ...; ...; 400
+ErrInteractiveCreate; Не получилось создать интерактив; ...; 500
+ErrAnswersNotFound; Ответы не найдены; ...; 400
