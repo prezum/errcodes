@@ -15,3 +15,13 @@
 | `10007` | `Количество слайдов больше 100` | 400       |
 | `10008` | `Ошибка при конвертации`        | 400       |
 | `10009` | `Ошибка создания презентации`   | 500       |
+
+## Установка пакета
+Выставить переменную окружения или через go.env:
+`GOPRIVATE=gitlab.devprezum.ru/prezentarium`
+
+Прописать в .gitconfig:
+```
+[url "git@gitlab.devprezum.ru:"]
+    insteadOf = https://gitlab.devprezum.ru
+```
