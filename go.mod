@@ -1,3 +1,3 @@
-module gitlab.devprezum.ru/prezentarium/err_codes
+module github.com/prezum/errcodes
 
 go 1.22.0
