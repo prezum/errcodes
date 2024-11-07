@@ -19,10 +19,11 @@
 ## Установка пакета
 Выставить переменную окружения или через go.env:
 `GOPRIVATE=github.com/prezum`
+or
 `go env -w GOPRIVATE='github.com/prezum/*'`
 
 Прописать в .gitconfig:
 ```
 [url "git@github.com/prezum:"]
-    insteadOf = https://gitlab.devprezum.ru
+    insteadOf = https://github.com
 ```
